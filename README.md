@@ -30,7 +30,7 @@ I automated a very repetitive and time consuming task that was to be done every 
 ## 2. To make Executable after installing all dependencies (.exe)
 * Go to "terminal tab" -> "local" of Pycharm and type 
 `pyinstaller main.py --onefile`
-* look to the upper left hand corner for "build" find, main.exe, and copy paste that to wherever you wish. 
+* look to the upper left hand corner for "build" find main.exe, and copy paste that to wherever you wish. 
 
 ## Installation for End-Users
 * Download the .exe file and click to run.
