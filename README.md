@@ -39,7 +39,7 @@ I automated a repetitive and time consuming task that was to be done every day f
 * Make sure to specify correct paths on lines 55 and 67 
 
 ## Results
-![Screenshot (184)](https://user-images.githubusercontent.com/94456069/156395898-30b3bddd-f151-4d5e-a2a7-540fdf3cb9df.png)&nbsp;&nbsp;&nbsp;&nbsp;
+![Screenshot (184)](https://user-images.githubusercontent.com/94456069/156395898-30b3bddd-f151-4d5e-a2a7-540fdf3cb9df.png){: padding-below:30px"}
 ![Screenshot (183)](https://user-images.githubusercontent.com/94456069/156394105-10f932eb-7c8f-49e7-b78a-36f81a2dd6fa.png)
 ![Screenshot (182)](https://user-images.githubusercontent.com/94456069/156394142-63fcff1c-188d-452a-8f3d-97070459b477.png)
 
