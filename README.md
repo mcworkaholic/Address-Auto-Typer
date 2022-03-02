@@ -6,6 +6,6 @@ I automated a very repetitive and time consuming task that was to be done every 
 
 ## Installation
 * Install [pip](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/) if not already done 
-* Go to your command line and type >pip install pyinstaller
-* type >pyinstaller addressAutoTyper.py 
+* Go to your command line and type > pip install pyinstaller
+* type > pyinstaller addressAutoTyper.py 
 
