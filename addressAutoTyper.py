@@ -56,12 +56,12 @@ for root, dirs, files in os.walk(r'C:\path'): # runs through all files to find .
     for file in files:
         if file.endswith(".xlsx") or file.endswith(".GSHEET"):
             fileList.append(file) # adds each file to empty list declared above 
-for i, value in enumerate(fileList):
+for i, value in enumerate(fileList): # formats the display of the files for the user
     print(i, "-", fileList[i])
 time.sleep(1.5)
 print('\n')
 
-fileSelection = int(input(string_two.center(55)))
+fileSelection = int(input(string_two.center(55))) # gets input from user for file selection
 
 
 table = pd.read_excel("C:\path\\" + (fileList[fileSelection]))
