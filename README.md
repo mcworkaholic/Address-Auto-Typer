@@ -47,4 +47,4 @@ I automated a repetitive and time consuming task that was to be done every day f
 
 ## Notes
 * You do not need to install pyinstaller or its dependencies(altgraph, future, pefile, pywin32-ctypes, pyinstaller-hooks-contrib, pyinstaller ) if you wish to just run it as a .py
-
+* workorder.docx automatically gets overwritten every time the program is run, so there will never be multiple files taking up space on the device under use.
