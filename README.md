@@ -34,6 +34,10 @@ I automated a repetitive and time consuming task that was to be done every day f
 `pyinstaller main.py --onefile`
 * look to the upper left hand corner for "build" find main.exe, and copy paste that to wherever you wish. 
 
+## Testing
+* Download the provided Excel file 
+* Make sure to specify correct paths on lines 55 and 67 
+
 ## Notes
 * You do not need to install pyinstaller or its dependencies(altgraph, future, pefile, pywin32-ctypes, pyinstaller-hooks-contrib, pyinstaller ) if you wish to just run it as a .py
 
