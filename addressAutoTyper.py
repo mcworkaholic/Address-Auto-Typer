@@ -7,21 +7,21 @@ import os
 import time
 
 
-# def print_test():
+# def print_test():                # Uncomment lines 10-13 and line 70 to print out the table from the excel file you wish to work with for testing
 #    print(table)
 #    print(addressList)
 #    print("address one = " + addressList[0])
 
-os.system('color')
+os.system('color')     # forces the .exe window to use termcolor and color the text int the window
 
 string_one = "Address Auto Typer found the following spreadsheet files..."
 string_two = "Which file would you like to prepare? (insert # only) "
 string_three = "Document is prepared. Please search for " '"workorder.docx"' " in the search bar outside of this window or your file system to find the completed document."
 string_four = "You may now press enter to exit the application."
 
-keyboard.press('F11')
+keyboard.press('F11') # forces the window to maximize when ran
 
-def document_format():
+def document_format(): # function that formats and saves workorder.docx based on how Snowpros LLC operates
     document = Document()
     styleEventStamp = document.styles['Normal']
     font = styleEventStamp.font
@@ -46,16 +46,16 @@ def document_format():
 
 
 
-print('\n')
-print(string_one.center(150))
+print('\n') # line break
+print(string_one.center(150)) # centers text
 print('\n')
 
-time.sleep(1.5)
-fileList = []
-for root, dirs, files in os.walk(r'C:\Users\wevan\OneDrive'):
+time.sleep(1.5) # artificial slow down for user
+fileList = [] # declares empty list to append to 
+for root, dirs, files in os.walk(r'C:\path'): # runs through all files to find .xlsx or .GSHEET
     for file in files:
         if file.endswith(".xlsx") or file.endswith(".GSHEET"):
-            fileList.append(file)
+            fileList.append(file) # adds each file to empty list declared above 
 for i, value in enumerate(fileList):
     print(i, "-", fileList[i])
 time.sleep(1.5)
@@ -64,14 +64,13 @@ print('\n')
 fileSelection = int(input(string_two.center(55)))
 
 
-table = pd.read_excel("C:\\Users\wevan\OneDrive\Desktop\\" + (fileList[fileSelection]))
+table = pd.read_excel("C:\path\\" + (fileList[fileSelection]))
 addressList = table["address"].tolist()
 
-# print_test()
+# print_test() # uncomment before print and lines 10-13 to test
 document_format()
 
 print('\n')
-print(colored( string_three.center(150),
-    'green'))
+print(colored( string_three.center(150), 'green'))
 print('\n')
 input(colored(string_four.center(150), 'green'))
