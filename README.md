@@ -4,7 +4,7 @@ A tool written in python3 to take pre-downloaded google sheet or excel files con
 ## Purpose
 I automated a repetitive and time consuming task that was to be done every day for Snow Pros LLC, making the life of crew-leaders easier and saving the company money, because usually the crew leader would either have to write out each address in the beginning of their shift and waste set-up time, or stop the truck with a full crew to write clearly(too bumpy while moving). This task was to manually write out each address from an excel file, 3 times, on a formatted piece of paper to be used for photo taking, (before, during, after) for documentation, to prove to the city of Minneapolis that we were there clearing sidewalks. This task takes an average of 35 seconds to do per address, and work-orders can have over 100 addresses in them. The cost savings obviously scale with more addresses per work order. Below is the format for each address. (Ignore the 80/100, I'm messy)
 
-[Address Format Scan.PDF](https://github.com/mcworkaholic/address-auto-typer/files/8170321/Address.Format.Scan.PDF)
+[Address.Format.Scan.PDF](https://github.com/mcworkaholic/address-auto-typer/files/8171018/Address.Format.Scan.PDF)
 
 ## Installation for Programmers using Pycharm
 * copy the source code
