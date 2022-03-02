@@ -52,7 +52,7 @@ print('\n')
 
 time.sleep(1.5) # artificial slow down for user
 fileList = [] # declares empty list to append to 
-for root, dirs, files in os.walk(r'C:\path'): # runs through all files to find .xlsx or .GSHEET
+for root, dirs, files in os.walk(r'C:\path'): # runs through all files to find .xlsx or .GSHEET, make sure to specify path such as "onedrive"
     for file in files:
         if file.endswith(".xlsx") or file.endswith(".GSHEET"):
             fileList.append(file) # adds each file to empty list declared above 
@@ -64,7 +64,7 @@ print('\n')
 fileSelection = int(input(string_two.center(55))) # gets input from user for file selection
 
 
-table = pd.read_excel("C:\path\\" + (fileList[fileSelection]))
+table = pd.read_excel("C:\path\\" + (fileList[fileSelection])) # make sure to specify path to which excel file you would like to use
 addressList = table["address"].tolist()
 
 # print_test() # uncomment before print and lines 10-13 to test
