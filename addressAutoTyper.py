@@ -12,7 +12,7 @@ import time
 #    print(addressList)
 #    print("address one = " + addressList[0])
 
-os.system('color')     # forces the .exe window to use termcolor and color the text int the window
+os.system('color')     # forces the .exe window to use termcolor and color the text in the window
 
 string_one = "Address Auto Typer found the following spreadsheet files..."
 string_two = "Which file would you like to prepare? (insert # only) "
