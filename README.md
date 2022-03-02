@@ -7,7 +7,7 @@ I automated a repetitive and time consuming task that was to be done every day f
 [Address Format Scan.PDF](https://github.com/mcworkaholic/address-auto-typer/files/8170321/Address.Format.Scan.PDF)
 
 ## Installation for Programmers using Pycharm
-* make new .py file and copy the source code
+* copy the source code
 ## 1. Add Dependencies 
 * altgraph	0.17.2	0.17.2
 * et-xmlfile	1.1.0	1.1.0
