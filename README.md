@@ -33,5 +33,5 @@ I automated a very repetitive and time consuming task that was to be done every 
 * look to the upper left hand corner for "build" find main.exe, and copy paste that to wherever you wish. 
 
 ## Notes
-* you do not need to install pyinstaller or its dependencies(altgraph, future, pefile, pywin32-ctypes, pyinstaller-hooks-contrib, pyinstaller ) if you wish to just run it as a .py
+* You do not need to install pyinstaller or its dependencies(altgraph, future, pefile, pywin32-ctypes, pyinstaller-hooks-contrib, pyinstaller ) if you wish to just run it as a .py
 
