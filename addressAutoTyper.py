@@ -71,6 +71,6 @@ addressList = table["address"].tolist()
 document_format()
 
 print('\n')
-print(colored( string_three.center(150), 'green'))
+print(colored( string_three.center(160), 'green'))
 print('\n')
 input(colored(string_four.center(150), 'green'))
