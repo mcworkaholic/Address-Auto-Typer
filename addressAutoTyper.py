@@ -40,7 +40,7 @@ def document_format(): # function that formats and saves workorder.docx based on
         document.add_paragraph('After             wo #1')
         document.add_paragraph(addressList[i])
         document.add_page_break()
-    document.save('workorder.docx')
+    document.save('C:\\Users\wevan\OneDrive\Desktop\\workorder.docx')
 
 
 
@@ -49,7 +49,7 @@ print(string_one.center(150)) # centers text
 print('\n')
 
 fileList = [] # declares empty list to append to 
-for root, dirs, files in os.walk(r'C:\path'): # runs through all files to find .xlsx or .GSHEET, make sure to specify path such as "onedrive"
+for root, dirs, files in os.walk(r'C:\Users\wevan\OneDrive'): # runs through all files to find .xlsx or .GSHEET, make sure to specify path such as "OneDrive"
     for file in files:
         if file.endswith(".xlsx") or file.endswith(".GSHEET"):
             fileList.append(file) # adds each file to empty list declared above 
@@ -59,8 +59,8 @@ print('\n')
 
 fileSelection = int(input(string_two.center(55))) # gets input from user for file selection
 
-
-table = pd.read_excel("C:\path\\" + (fileList[fileSelection])) # make sure to specify path to which excel file you would like to use
+fileName = fileList[fileSelection]
+table = pd.read_excel("C:\\Users\wevan\OneDrive\Desktop\\" + (fileName)) # make sure to specify correct path to which excel file you would like to use
 addressList = table["address"].tolist()
 
 # print_test() # uncomment before print and lines 10-13 to test
@@ -68,3 +68,4 @@ document_format()
 
 print('\n')
 input(colored(string_four.center(150), 'green'))
+os.system('start workorder.docx')
