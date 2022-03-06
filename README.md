@@ -32,11 +32,11 @@ This program automates a repetitive and time consuming task that was to be done 
 ## 2. To make Executable after installing all dependencies (.exe)
 * After you've copied the code in Pycharm, Go to "terminal tab" -> "local" of Pycharm and type 
 `pyinstaller main.py --onefile`
-* look to the upper left hand corner for "build" find main.exe, and copy paste that to wherever you wish. 
+* look to the upper left hand corner for "dist" find main.exe, and copy paste that to wherever you wish. 
 
 ## Testing
 * Download the provided Excel file 
-* Make sure to specify correct paths on lines 55 and 67 
+* Make sure to specify correct paths 
 
 ## Results
 ![Screenshot (184)](https://user-images.githubusercontent.com/94456069/156395898-30b3bddd-f151-4d5e-a2a7-540fdf3cb9df.png)
